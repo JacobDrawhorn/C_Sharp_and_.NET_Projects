@@ -30,7 +30,7 @@ namespace Package_Express
             int Width = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Length: ");
             int length = Convert.ToInt32(Console.ReadLine());
-            int dimensions = height + Width + length;
+            int dimensions = height * Width * length;
 
             if (dimensions > 50)
             {
