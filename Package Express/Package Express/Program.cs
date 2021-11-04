@@ -30,7 +30,8 @@ namespace Package_Express
             int Width = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Length: ");
             int length = Convert.ToInt32(Console.ReadLine());
-            int dimensions = height * Width * length;
+            int dimensions = height + Width + length;
+            int dimension = height * width * length;
 
             if (dimensions > 50)
             {
@@ -40,7 +41,7 @@ namespace Package_Express
             }
             else
             {
-                int total = dimensions * weight / 100;
+                int total = dimension * weight / 100;
                 Console.WriteLine("Your total is: $" + total + " Thankyou!");
             }
             
