@@ -132,6 +132,7 @@ namespace Iteration_Drill
                 else 
                 {
                     storage.Add(y);
+                    console.WriteLine(y)
                 }
             }
             Console.ReadLine();
